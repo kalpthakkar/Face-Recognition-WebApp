@@ -1,2 +1,2 @@
-Committed on 2019-11-12T12:35:55 
+Committed on 2019-11-12T12:36:05 
 Committer - https://github.com/kalpthakkar/Face-Recognition-WebApp
