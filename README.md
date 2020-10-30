@@ -10,7 +10,7 @@ It's loaded with many additional features such as a "secure login system" by enc
 This is implemented using a node server and database <br />
 which is deployed on the Heroku platform. 
 
-Here's the link to the [backend repo](https://github.com/kalpthakkar/smart-brain-api)
+Here's the link to the [backend repository](https://github.com/kalpthakkar/smart-brain-api)
 
 ### `Smart Brain`
 Open this [link](https://kalpthakkar.github.io/Face-Recognition-WebApp) to view it in the browser.
