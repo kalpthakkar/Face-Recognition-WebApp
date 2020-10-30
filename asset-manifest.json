@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/SmartBrain/static/css/main.085e0eef.chunk.css",
-    "main.js": "/SmartBrain/static/js/main.fbe0628f.chunk.js",
-    "main.js.map": "/SmartBrain/static/js/main.fbe0628f.chunk.js.map",
-    "runtime-main.js": "/SmartBrain/static/js/runtime-main.af1a4b6f.js",
-    "runtime-main.js.map": "/SmartBrain/static/js/runtime-main.af1a4b6f.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/SmartBrain/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.e5ff17f4.chunk.js": "/SmartBrain/static/js/2.e5ff17f4.chunk.js",
-    "static/js/2.e5ff17f4.chunk.js.map": "/SmartBrain/static/js/2.e5ff17f4.chunk.js.map",
-    "index.html": "/SmartBrain/index.html",
-    "precache-manifest.4d705a14935ef835f9af48a7708024ad.js": "/SmartBrain/precache-manifest.4d705a14935ef835f9af48a7708024ad.js",
-    "service-worker.js": "/SmartBrain/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/SmartBrain/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.085e0eef.chunk.css.map": "/SmartBrain/static/css/main.085e0eef.chunk.css.map",
-    "static/js/2.e5ff17f4.chunk.js.LICENSE.txt": "/SmartBrain/static/js/2.e5ff17f4.chunk.js.LICENSE.txt",
-    "static/media/Rank.css": "/SmartBrain/static/media/5bc234e37ee12adc26918eb88e5e4ec4.f855ed85.eot"
+    "main.css": "/Face-Recognition-WebApp/static/css/main.68bbe514.chunk.css",
+    "main.js": "/Face-Recognition-WebApp/static/js/main.e816c7f5.chunk.js",
+    "main.js.map": "/Face-Recognition-WebApp/static/js/main.e816c7f5.chunk.js.map",
+    "runtime-main.js": "/Face-Recognition-WebApp/static/js/runtime-main.0aa5fb9e.js",
+    "runtime-main.js.map": "/Face-Recognition-WebApp/static/js/runtime-main.0aa5fb9e.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Face-Recognition-WebApp/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.e5ff17f4.chunk.js": "/Face-Recognition-WebApp/static/js/2.e5ff17f4.chunk.js",
+    "static/js/2.e5ff17f4.chunk.js.map": "/Face-Recognition-WebApp/static/js/2.e5ff17f4.chunk.js.map",
+    "index.html": "/Face-Recognition-WebApp/index.html",
+    "precache-manifest.532a58521a88a614d877432e808a7fa4.js": "/Face-Recognition-WebApp/precache-manifest.532a58521a88a614d877432e808a7fa4.js",
+    "service-worker.js": "/Face-Recognition-WebApp/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Face-Recognition-WebApp/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.68bbe514.chunk.css.map": "/Face-Recognition-WebApp/static/css/main.68bbe514.chunk.css.map",
+    "static/js/2.e5ff17f4.chunk.js.LICENSE.txt": "/Face-Recognition-WebApp/static/js/2.e5ff17f4.chunk.js.LICENSE.txt",
+    "static/media/Rank.css": "/Face-Recognition-WebApp/static/media/5bc234e37ee12adc26918eb88e5e4ec4.f855ed85.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.af1a4b6f.js",
+    "static/js/runtime-main.0aa5fb9e.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.e5ff17f4.chunk.js",
-    "static/css/main.085e0eef.chunk.css",
-    "static/js/main.fbe0628f.chunk.js"
+    "static/css/main.68bbe514.chunk.css",
+    "static/js/main.e816c7f5.chunk.js"
   ]
 }
