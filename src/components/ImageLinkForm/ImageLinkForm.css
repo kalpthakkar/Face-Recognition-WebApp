@@ -1,0 +1,128 @@
+/**************** General CSS ****************/
+.center {
+  display: flex;
+  justify-content: center;
+}
+/*********************************************/
+
+
+/*********************************** Container ***********************************/
+.container {
+  display: flex;
+  flex-direction: column; 
+}
+
+/***** Container surrounding Input Field *****/
+.formContainer {
+	width: 700px;
+	
+	/* Gradient taken from: https://uigradients.com/ */
+	background: #00F260;                                              /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #0575E6, #00F260);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-transition: all 1.05s ease-in-out;
+	-moz-transition: all 1.05s ease-in-out;
+	-ms-transition: all 1.05s ease-in-out;
+	-o-transition: all 1.05s ease-in-out;
+	transition: all 1.05s ease-in-out;
+}
+
+.formContainer:hover {
+	-webkit-transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);   
+    transform: scale(1.05, 1.05);
+}
+/*********************************************************************************/
+
+
+/******************************** For Input-field ********************************/
+.searchBarRoundness {
+	border-radius:5px 0 0 5px;
+	border-style: none;
+}
+
+/* Placeholder - font style */
+.fontPlaceholder::-webkit-input-placeholder { 
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.fontPlaceholder:-moz-placeholder { 
+  font-family: Impact, Charcoal, sans-serif;
+}
+/*********************************************************************************/
+
+
+/********************************* Detect Button *********************************/
+
+/* Detect Button - Desktop */
+button {
+  cursor: pointer;
+}
+
+.detectButton {
+	width: 30%;
+	border-style: none;
+	border-radius:0 5px 5px 0;
+	color: white;
+	background-color: purple;
+}
+
+.detectButton span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.detectButton:hover span {
+  padding-right: 25px;
+}
+
+.detectButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.detectButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+/* Detect Button - Mobile */
+.detectMobileButton {
+	width: 30%;
+	border-style: none;
+	border-radius:5px 5px 5px 5px;
+	color: white;
+	background-color: purple;
+}
+
+.detectMobileButton span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.detectMobileButton:hover span {
+  padding-right: 25px;
+}
+
+.detectMobileButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.detectMobileButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+/*********************************************************************************/

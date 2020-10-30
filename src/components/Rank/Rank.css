@@ -1,0 +1,15 @@
+@font-face {font-family: "Courier New V1";
+  src: url("5bc234e37ee12adc26918eb88e5e4ec4.eot"); /* IE9*/
+  src: url("5bc234e37ee12adc26918eb88e5e4ec4.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("5bc234e37ee12adc26918eb88e5e4ec4.woff2") format("woff2"), /* chrome、firefox */
+  url("5bc234e37ee12adc26918eb88e5e4ec4.woff") format("woff"), /* chrome、firefox */
+  url("5bc234e37ee12adc26918eb88e5e4ec4.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("5bc234e37ee12adc26918eb88e5e4ec4.svg#Courier New V1") format("svg"); /* iOS 4.1- */
+}
+
+.customFont{
+    font-family:"Courier New V1" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}

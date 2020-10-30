@@ -1,0 +1,45 @@
+/* CSS Animation Resource: 
+    https://tobiasahlin.com/spinkit/
+    https://wpamelia.com/loading-animation/
+    https://codepen.io/jackrugile/pen/CdKiL#code-area
+*/
+.spinner {
+  width: 24px;
+  height: 24px;
+  max-width: 100vh;
+  margin: 0px auto;
+  background-color: #333;
+  overflow: hidden;
+  /*padding-right: 0px;*/
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+.container {
+  flex-flow: column wrap;
+  overflow: hidden;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    margin-right: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    margin-right: 0px;
+    padding-right: 0px;
+  } 100% {
+    -webkit-transform: scale(1.0);
+    margin-right: 0px;
+    transform: scale(1.0);
+    padding-right: 0px;
+    opacity: 0;
+  }
+}
