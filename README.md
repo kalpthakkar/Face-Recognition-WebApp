@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About Smart Brain (Face Recognition WebApp)
+
+Smart Brain is a Face identification project created using React. <br />
+Here's the repository to its front-end part.
+
+It's loaded with many additional features such as a "secure login system" by encrypting the password into a hash format, remembering the entries count of the users (for images submitted), and displaying back the user details to the front-end (With a great User Interface). 
+
+This is implemented using a node server and database <br />
+which is deployed on the Heroku platform. 
+
+Here's the link to the [backend repo](https://github.com/kalpthakkar/smart-brain-api)
+
+### `Smart Brain`
+Open this [link](https://kalpthakkar.github.io/Face-Recognition-WebApp) to view it in the browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
