@@ -125,7 +125,7 @@ class Signin extends React.Component {
           </center>
         : <div></div>
         }
-        <div style={{width: 'auto', marginTop: '0.5px', marginRight: '1rem', marginLeft: '1rem', marginBottom: '1.5rem'}}  className="center .mh4">
+        <div style={{width: 'auto', marginTop: '0.5px', marginRight: '1.5rem', marginLeft: '1.5rem', marginBottom: '1.5rem'}}  className="center .mh4">
         <article className="br4 ba b--black-10 w-100 w-50-m w-25-l mw6 shadow-5 center mh4">
             <main className="pa4 black-80">
               <div className="measure">

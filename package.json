@@ -1,5 +1,6 @@
 {
-  "name": "Smart Brain",
+  "name": "SmartBrain",
+  "homepage": "https://kalpthakkar.github.io/Face-Recognition-WebApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
