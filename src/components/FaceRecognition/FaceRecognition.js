@@ -53,7 +53,7 @@ const FaceRecognition = ({ imageUrl, box, disableCSS }) => {
 		{	
 			return (
 				<div>
-				<div style={{marginLeft: '10%', marginRight: '10%', marginTop: '15px', display: 'flex', justifyContent: 'center'}}>
+				<div style={{marginLeft: '10%', marginRight: '10%', marginTop: '15px', marginBottom: '2.8rem', display: 'flex', justifyContent: 'center'}}>
 					<div style={{margin: '3%'}} className="absolute mt2 gradient-border">
 						<img id="inputimage" alt='' src={imageUrl} width="500px" height="auto" style={{borderRadius: '25px',  display: 'flex', alignItems: 'center', justifyContent: 'center', width: '600px', height: 'auto'}} />
 						<div>
