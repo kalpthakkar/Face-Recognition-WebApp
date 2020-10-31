@@ -29,21 +29,23 @@ const FaceRecognition = ({ imageUrl, box, disableCSS }) => {
 		if(window.matchMedia("only screen and (max-width: 760px)").matches) /*For Mobile Users*/
 		{	
 			return (
-				<div style={{marginLeft: '25%', marginRight: '25%', marginTop: '27px', display: 'flex', justifyContent: 'center'}}>
-					<div style={{margin: '10%', display: 'flex'}} className="absolute mt2 gradient-border">
-						<img id="inputimage" alt='' src={imageUrl} style={{borderRadius: '25px'}} />
-						 <div>
-					        {(()=>{
-					          let container =[];
-					          	box.forEach((val,i)=>{
-					            	container.push(<div key={i}>
-					                           		<div className="bounding-box" style={{top: box[i].topRow, right: box[i].rightCol, bottom: box[i].bottomRow, left: box[i].leftCol}}></div>
-					                           	   </div>)
-					            });
-					            	return container;     
-					        })()}
-						</div>{/*For Displaying face-box by 'html element' & 'css property' using data from every index position of box(an array of objects)*/}
+				<div>
+				<div style={{marginLeft: '10%', marginRight: '10%', marginTop: '15px', display: 'flex', justifyContent: 'center'}}>
+					<div style={{margin: '3%'}} className="absolute mt2 gradient-border">
+						<img id="inputimage" alt='' src={imageUrl} width="500px" height="auto" style={{borderRadius: '25px',  display: 'flex', alignItems: 'center', justifyContent: 'center', width: '600px', height: 'auto'}} />
+						<div>
+				        {(()=>{
+				          let container =[];
+					        box.forEach((val,i)=>{
+					            container.push(<div key={i}>
+					                          	<div className="bounding-box" style={{top: box[i].topRow, right: box[i].rightCol, bottom: box[i].bottomRow, left: box[i].leftCol}}></div>
+					                           </div>)
+				            });
+				            	return container;     
+				        })()}
+						</div> {/*For Displaying face-box by 'html element' & 'css property' using data from every index position of box(an array of objects)*/}
 					</div>
+				</div>
 				</div>
 			);
 		}
