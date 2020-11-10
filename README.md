@@ -7,7 +7,7 @@ Here's the repository to its front-end part.
 
 It's loaded with many additional features such as a "secure login system" by encrypting the password into a hash format, remembering the entries count of the users (for images submitted), and displaying back the user details to the front-end (With a great User Interface). 
 
-This is implemented using a node server and database <br />
+This is implemented using a node server and postgresql database <br />
 which is deployed on the Heroku platform. 
 
 Here's the link to the [backend repository](https://github.com/kalpthakkar/smart-brain-api)
